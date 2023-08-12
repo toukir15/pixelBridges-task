@@ -2,7 +2,9 @@ import Container from "../Container";
 import Arbitrum from "./Arbitrum";
 import Banner from "./Banner";
 import BubbleContract from "./BubbleContract";
+import Contact from "./Contact";
 import Farming from "./Farming";
+import Partners from "./Partners";
 import Token from "./Token";
 import Tokenomics from "./Tokenomics";
 
@@ -16,6 +18,8 @@ export default function Home() {
         <Arbitrum />
         <BubbleContract />
         <Tokenomics />
+        <Contact />
+        <Partners />
       </Container>
     </div>
   );
