@@ -1,4 +1,5 @@
 import Container from "../Container";
+import Arbitrum from "./Arbitrum";
 import Banner from "./Banner";
 import Farming from "./Farming";
 import Token from "./Token";
@@ -10,6 +11,7 @@ export default function Home() {
       <Token />
       <Container>
         <Farming />
+        <Arbitrum />
       </Container>
     </div>
   );
