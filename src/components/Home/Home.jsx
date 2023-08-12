@@ -1,8 +1,10 @@
 import Container from "../Container";
 import Arbitrum from "./Arbitrum";
 import Banner from "./Banner";
+import BubbleContract from "./BubbleContract";
 import Farming from "./Farming";
 import Token from "./Token";
+import Tokenomics from "./Tokenomics";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <Container>
         <Farming />
         <Arbitrum />
+        <BubbleContract />
+        <Tokenomics />
       </Container>
     </div>
   );
